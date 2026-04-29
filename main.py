@@ -7,7 +7,7 @@ class User:
         self.__grade = grade
 
         if not isinstance(self, SuperUser):
-            User.count += 1
+            User.count +=1
 
     @property
     def name(self):
