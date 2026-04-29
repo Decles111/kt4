@@ -6,7 +6,7 @@ class User:
         self._password = password
         self.__grade = grade
 
-        if type(self) == User:
+        if not isinstance(self, SuperUser):
             User.count += 1
 
     @property
