@@ -105,6 +105,3 @@ print(user2.login)
 user2.login = 'geo'
 print(user1.grade)
 admin.grade = 10
-
-admin.role ="rrr"
-admin.show_info()
